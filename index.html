@@ -9,26 +9,25 @@
 		<title>Calculadora</title>
 	</head>
 	<body>
-		<div class="quadrado">
-			<h1>Calculadora</h1>
-			<hr />
-			Utilize apenas n&uacute;meros inteiros
-			<br />
-			<input type="text" id="val_c" value="5" />
-			<input type="text" id="val_d" value="5" />
-			<input type="submit" id="somarExt" value="somar" />
-			<input type="submit" id="multiplicar" value="multiplicar" />
-			<input type="submit" id="subtrair" value="subtrair" />
-			<input type="submit" id="dividir" value="dividir" />
-			<div class="quadradoSmall"> 
-				<input type="text" id="val_a" />
-				<input type="text" id="val_b" />
-				<input type="submit" class="invisible" id="somarInt" value="somar" />
-				<div id="result" ></div>
+		<div class="borda"> 
+			<div align="right" class="quadrado">
+				<img width="200px" height="40px" 
+				src="https://raw.githubusercontent.com/giovanibublitz/DojoCalculadora/master/img/casio-logo.png">
+				<div class="quadrado3" align="right">
+					<input type="text" class="display" id="val_c" value="5" />
+					<input type="text" id="val_d" value="5" />
+					<input type="submit" id="somarExt" value="somar" />
+					<input type="submit" id="multiplicar" value="multiplicar" />
+					<input type="submit" id="subtrair" value="subtrair" />
+					<input type="submit" id="dividir" value="dividir" />
+						<div class="quadradoSmall"> 
+							<input type="text" id="val_a" />
+							<input type="text" id="val_b" />
+							<input type="submit" class="invisible" id="somarInt" value="somar" />
+						</div>	
+						<div id="result" ></div>
+				</div>
 			</div>
 		</div>
-		<br />
-		<br />
-		<a href="https://github.com/crisstanza/dojo-js-calculadora" target="_blank">github.com/crisstanza/dojo-js-calculadora</a>
 	</body>
 </html>
